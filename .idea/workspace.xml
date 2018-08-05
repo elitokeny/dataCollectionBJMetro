@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1ac5255a-39e0-4eeb-8fc1-2cec902adc3f" name="Default" comment="">
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/bjSub/PoiHandle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bjSub/StationHandle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/gaodehandle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/gaodehandle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bjSub/POIDetailHandle.py" beforeDir="false" afterPath="$PROJECT_DIR$/bjSub/POIDetailHandle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bjSub/allStationHandle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bjSub/stationDataHandle.py" beforeDir="false" afterPath="$PROJECT_DIR$/bjSub/stationDataHandle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bjSub/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bjSub/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bjSub/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/bjSub/view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/baiduhandle.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/baiduhandle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subInfo/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/subInfo/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/subInfo/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/baiduhandle.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/baiduhandle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hello.html" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/11047.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bjSub/GatewayHandle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bjSub/SaveBus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/cdbushandle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/cdbushandle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bjSub/PoiHandle.py" beforeDir="false" afterPath="$PROJECT_DIR$/bjSub/PoiHandle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bjSub/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bjSub/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bjSub/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/bjSub/view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/gaodehandle.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/gaodehandle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subInfo/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/subInfo/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/subInfo/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/gaodehandle.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gaodehandle.html" afterDir="false" />
+>>>>>>> 备注
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/bjSub$stationDataHandle.coverage" NAME="stationDataHandle Coverage Results" MODIFIED="1527930801747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bjSub" />
+    <SUITE FILE_PATH="coverage/bjSub$POIDetailHandle.coverage" NAME="POIDetailHandle Coverage Results" MODIFIED="1527930183173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bjSub" />
+    <SUITE FILE_PATH="coverage/dataCollectionBJMetro$test.coverage" NAME="test Coverage Results" MODIFIED="1528370965284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bjSub" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
+      <file leaf-file-name="gaodehandle.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/js/gaodehandle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1269">
+              <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
+=======
+      <file leaf-file-name="view.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bjSub/view.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="172" column="12" selection-start-line="172" selection-start-column="12" selection-end-line="172" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+>>>>>>> 备注
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="gaodehandle.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/gaodehandle.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1005">
+              <caret line="52" column="76" lean-forward="true" selection-start-line="52" selection-start-column="76" selection-end-line="52" selection-end-column="76" />
+=======
+      <file leaf-file-name="PoiHandle.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bjSub/PoiHandle.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+>>>>>>> 备注
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="baiduhandle.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/baiduhandle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1824">
+              <caret line="96" column="7" selection-start-line="96" selection-start-column="7" selection-end-line="101" selection-end-column="19" />
+=======
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bjSub/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+>>>>>>> 备注
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="view.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bjSub/view.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1425">
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+=======
+      <file leaf-file-name="StationHandle.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bjSub/StationHandle.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+>>>>>>> 备注
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/subInfo/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+=======
+      <file leaf-file-name="cdbushandle.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/js/cdbushandle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2066">
+              <caret line="9" column="28022" selection-start-line="9" selection-start-column="28022" selection-end-line="9" selection-end-column="28022" />
+>>>>>>> 备注
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bjSub/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="31" column="47" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="31" selection-end-column="47" />
+              <folding>
+                <element signature="e#629#661#0" expanded="true" />
+              </folding>
+=======
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/subInfo/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1292">
+              <caret line="68" selection-start-line="54" selection-end-line="68" />
+>>>>>>> 备注
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="StationHandle.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bjSub/StationHandle.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+=======
+      <file leaf-file-name="SaveBus.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bjSub/SaveBus.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cdbushandle.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/cdbushandle.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+>>>>>>> 备注
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/subInfo/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+=======
+      <file leaf-file-name="gaodehandle.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/gaodehandle.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="665">
+              <caret line="35" selection-start-line="35" selection-end-line="47" selection-end-column="9" />
+>>>>>>> 备注
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="PoiHandle.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bjSub/PoiHandle.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+=======
+      <file leaf-file-name="gaodehandle.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/gaodehandle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-537">
+              <caret line="51" column="36" lean-forward="true" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+>>>>>>> 备注
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>maxlength</find>
+      <find>APPS</find>
+      <find>STATIC_URL</find>
+      <find>data</find>
+      <find>update</find>
+      <find>forEach</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/start.html" />
+        <option value="$PROJECT_DIR$/bjSub/__init__.py" />
+        <option value="$PROJECT_DIR$/bjSub/bjsubResponse.py" />
+        <option value="$PROJECT_DIR$/bjSub/stationPointHandle.py" />
+        <option value="$PROJECT_DIR$/static/js/test2.js" />
+        <option value="$PROJECT_DIR$/static/js/test.js" />
+        <option value="$PROJECT_DIR$/bjSub/stationDetailHandle.py" />
+        <option value="$PROJECT_DIR$/bjSub/allStationHandle.py" />
+        <option value="$PROJECT_DIR$/static/js/searchPOI.js" />
+        <option value="$PROJECT_DIR$/bjSub/settings.py" />
+        <option value="$PROJECT_DIR$/bjSub/test.py" />
+        <option value="$PROJECT_DIR$/templates/searchLostStation.html" />
+        <option value="$PROJECT_DIR$/templates/searchPOI.html" />
+        <option value="$PROJECT_DIR$/templates/searchStationPoint.html" />
+        <option value="$PROJECT_DIR$/templates/baiduhandle.html" />
+        <option value="$PROJECT_DIR$/bjSub/POIDetailHandle.py" />
+        <option value="$PROJECT_DIR$/static/js/baiduhandle.js" />
+        <option value="D:/software/Python3.6/Lib/site-packages/django/contrib/admin/static/admin/css/base.css" />
+        <option value="$PROJECT_DIR$/bjSub/stationDataHandle.py" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/bjSub/PoiHandle.py" />
+        <option value="$PROJECT_DIR$/templates/hello.html" />
+        <option value="$PROJECT_DIR$/subInfo/admin.py" />
+        <option value="$PROJECT_DIR$/subInfo/models.py" />
+        <option value="$PROJECT_DIR$/bjSub/StationHandle.py" />
+        <option value="$PROJECT_DIR$/bjSub/view.py" />
+        <option value="$PROJECT_DIR$/bjSub/urls.py" />
+        <option value="$PROJECT_DIR$/static/js/gaodehandle.js" />
+        <option value="$PROJECT_DIR$/templates/gaodehandle.html" />
+=======
+        <option value="$PROJECT_DIR$/templates/hello.html" />
+        <option value="$PROJECT_DIR$/subInfo/admin.py" />
+        <option value="$PROJECT_DIR$/bjSub/StationHandle.py" />
+        <option value="$PROJECT_DIR$/templates/cd.html" />
+        <option value="$PROJECT_DIR$/templates/gaodehandle.html" />
+        <option value="$PROJECT_DIR$/bjSub/GatewayHandle.py" />
+        <option value="$PROJECT_DIR$/bjSub/urls.py" />
+        <option value="$PROJECT_DIR$/bjSub/view.py" />
+        <option value="$PROJECT_DIR$/subInfo/models.py" />
+        <option value="$PROJECT_DIR$/bjSub/SaveBus.py" />
+        <option value="$PROJECT_DIR$/static/js/gaodehandle.js" />
+        <option value="$PROJECT_DIR$/templates/cdbushandle.html" />
+        <option value="$PROJECT_DIR$/static/js/cdbushandle.js" />
+        <option value="$PROJECT_DIR$/bjSub/PoiHandle.py" />
+>>>>>>> 备注
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+<<<<<<< HEAD
+  <component name="ProjectFrameBounds" extendedState="7">
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+>>>>>>> 备注
+    <option name="x" value="-37" />
+    <option name="y" value="-18" />
+    <option name="width" value="1378" />
+    <option name="height" value="743" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dataCollectionBJMetro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dataCollectionBJMetro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dataCollectionBJMetro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dataCollectionBJMetro" type="462c0819:PsiDirectoryNode" />
+              <item name="bjSub" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dataCollectionBJMetro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dataCollectionBJMetro" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dataCollectionBJMetro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dataCollectionBJMetro" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dataCollectionBJMetro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dataCollectionBJMetro" type="462c0819:PsiDirectoryNode" />
+              <item name="subInfo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dataCollectionBJMetro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dataCollectionBJMetro" type="462c0819:PsiDirectoryNode" />
+              <item name="subInfo" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dataCollectionBJMetro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dataCollectionBJMetro" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dataCollectionBJMetro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.bjSub">
+    <configuration name="POIDetailHandle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="bjSub" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bjSub" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bjSub/POIDetailHandle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="stationDataHandle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="bjSub" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bjSub" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bjSub/stationDataHandle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="bjSub" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bjSub" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bjSub/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="bjSub" type="Python.DjangoServer" factoryName="Django server">
+      <module name="bjSub" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="bjSub.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.bjSub" />
+      <item itemvalue="Python.POIDetailHandle" />
+      <item itemvalue="Python.stationDataHandle" />
+      <item itemvalue="Python.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.stationDataHandle" />
+        <item itemvalue="Python.POIDetailHandle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ac5255a-39e0-4eeb-8fc1-2cec902adc3f" name="Default" comment="" />
+      <created>1527748127648</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527748127648</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+<<<<<<< HEAD
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007587" side_tool="true" weight="0.40728477" />
+      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.3294702" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3294702" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3290735" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46341464" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.27154472" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49015749" visible="true" weight="0.17700455" />
+=======
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007587" side_tool="true" weight="0.40728477" />
+      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.3284553" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3294702" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3290735" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6162602" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.33658537" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49015749" visible="true" weight="0.19440243" />
+>>>>>>> 备注
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32776934" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" sideWeight="0.5098425" side_tool="true" weight="0.16792738" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924126" weight="0.35284552" />
+=======
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924126" weight="0.2699187" />
+>>>>>>> 备注
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="manage.py@bjSub" order="7" visible="true" weight="0.32969216" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Find" order="1" />
+=======
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3284553" />
+>>>>>>> 备注
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49015749" visible="true" weight="0.115326256" />
+      <window_info anchor="bottom" id="manage.py@bjSub" order="9" visible="true" weight="0.32969216" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2897351" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.442053" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3284839" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924356" weight="0.352649" />
+      <window_info id="Structure" order="1" sideWeight="0.5098425" side_tool="true" weight="0.16792738" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3294702" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.22764228" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3290735" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+<<<<<<< HEAD
+      <option name="time" value="188" />
+=======
+      <option name="time" value="197" />
+>>>>>>> 备注
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Python.DjangoServer">
+        <watch expression="tags[0]" language="Python" />
+        <watch expression="TAGS" language="Python" />
+        <watch expression="cur['tags']" language="Python" />
+        <watch expression="TAGSTATION in cur['tags']" language="Python" />
+        <watch expression="cur['title']" language="Python" />
+        <watch expression="all_station[0]" language="Python" />
+        <watch expression="Station.objects.get(id=stationData.staId)" language="Python" />
+        <watch expression="stationData.staId" language="Python" />
+        <watch expression="stationData" language="Python" />
+        <watch expression="stationData.data" language="Python" />
+        <watch expression="stationData['staId']" language="Python" />
+        <watch expression="tag1" />
+        <watch expression="detils" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>stationData['staId']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>stationData.data</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>stationData</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>stationData.staId</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Station.objects.get(id=stationData.staId)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Station.objects.get(id=1)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>all_station[0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cur['title']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>TAGSTATION in cur['tags']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cur['tags']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+<<<<<<< HEAD
+    <entry file="file://$USER_HOME$/.pyenv/versions/3.6.5/lib/python3.6/site-packages/Django-2.2.dev20180530015251-py3.6.egg/django/db/models/fields/__init__.py" />
+    <entry file="file://$USER_HOME$/.pyenv/versions/3.6.5/lib/python3.6/site-packages/Django-2.2.dev20180530015251-py3.6.egg/django/http/response.py" />
+    <entry file="file://$PROJECT_DIR$/bjSub/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subInfo/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-798" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bjSub/stationDetailHandle.py" />
+    <entry file="file://D:/software/Python3.6/Lib/site-packages/django/apps/registry.py" />
+    <entry file="file://$PROJECT_DIR$/bjSub/bjsubResponse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/searchPOI.js" />
+=======
+    <entry file="file://$PROJECT_DIR$/bjSub/SaveBus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 备注
+    <entry file="file://D:/software/Python3.6/Lib/json/encoder.py" />
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/pymysql/connections.py" />
+    <entry file="file://D:/software/Python3.6/Lib/site-packages/django/core/management/base.py" />
+    <entry file="file://$PROJECT_DIR$/static/js/test.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/test2.js" />
+    <entry file="file://D:/software/Python3.6/Lib/site-packages/django/http/request.py" />
+    <entry file="file://D:/software/Python3.6/Lib/json/__init__.py" />
+    <entry file="file://$USER_HOME$/.pyenv/versions/3.6.5/lib/python3.6/site-packages/Django-2.2.dev20180530015251-py3.6.egg/django/db/models/base.py" />
+    <entry file="file://$USER_HOME$/.pyenv/versions/3.6.5/lib/python3.6/site-packages/Django-2.2.dev20180530015251-py3.6.egg/django/db/models/manager.py" />
+    <entry file="file://D:/software/Python3.6/Lib/site-packages/django/db/models/query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="402" column="24" selection-start-line="402" selection-start-column="24" selection-end-line="402" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Python3.6/Lib/tokenize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="451" selection-start-line="451" selection-end-line="451" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subInfo/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Python3.6/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="863" selection-start-line="863" selection-end-line="863" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Python3.6/Lib/socketserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="638" selection-start-line="638" selection-end-line="638" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Python3.6/Lib/site-packages/django/core/servers/basehttp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="153" selection-start-line="153" selection-end-line="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Python3.6/Lib/wsgiref/handlers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Python3.6/Lib/site-packages/django/contrib/staticfiles/handlers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Python3.6/Lib/site-packages/django/core/handlers/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Python3.6/Lib/site-packages/django/template/loaders/filesystem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/searchLostStation.html" />
+    <entry file="file://$PROJECT_DIR$/templates/searchPOI.html" />
+    <entry file="file://$PROJECT_DIR$/templates/searchStationPoint.html" />
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/templates/baiduhandle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+=======
+>>>>>>> 备注
+    <entry file="file://$PROJECT_DIR$/bjSub/allStationHandle.py" />
+    <entry file="file://D:/software/Python3.6/Lib/site-packages/django/contrib/admin/static/admin/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="767" column="21" lean-forward="true" selection-start-line="767" selection-start-column="21" selection-end-line="767" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bjSub/stationDataHandle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" lean-forward="true" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bjSub/POIDetailHandle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="32" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://D:/software/Python3.6/Lib/site-packages/django/views/decorators/csrf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+=======
+>>>>>>> 备注
+    <entry file="file://D:/software/Python3.6/Lib/site-packages/django/db/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="494" column="96" lean-forward="true" selection-start-line="494" selection-start-column="15" selection-end-line="494" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/bjSub/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1672">
+          <caret line="88" column="36" selection-start-line="88" selection-start-column="36" selection-end-line="88" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+=======
+>>>>>>> 备注
+    <entry file="file://$PROJECT_DIR$/templates/hello.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subInfo/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/bjSub/StationHandle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+=======
+    <entry file="file://$PROJECT_DIR$/templates/cd.html" />
+    <entry file="file://$PROJECT_DIR$/templates/baiduhandle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/baiduhandle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bjSub/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2679">
+          <caret line="141" column="1" selection-start-line="141" selection-start-column="1" selection-end-line="141" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bjSub/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="61" lean-forward="true" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+>>>>>>> 备注
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Python3.6/Lib/site-packages/django/utils/deprecation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Python3.6/Lib/site-packages/django/core/handlers/exception.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="169">
+=======
+        <state relative-caret-position="52">
+>>>>>>> 备注
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Python3.6/Lib/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/bjSub/PoiHandle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bjSub/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="31" column="47" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="31" selection-end-column="47" />
+          <folding>
+            <element signature="e#629#661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/baiduhandle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1824">
+          <caret line="96" column="7" selection-start-line="96" selection-start-column="7" selection-end-line="101" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subInfo/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+=======
+    <entry file="file://D:/software/Python3.6/Lib/site-packages/django/views/decorators/csrf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bjSub/GatewayHandle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subInfo/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="68" selection-start-line="54" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ_Bus.csv" />
+    <entry file="file://$PROJECT_DIR$/bjSub/SaveBus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bjSub/StationHandle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/gaodehandle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" selection-start-line="35" selection-end-line="47" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bjSub/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+>>>>>>> 备注
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bjSub/view.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="-1425">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+=======
+        <state relative-caret-position="190">
+          <caret line="172" column="12" selection-start-line="172" selection-start-column="12" selection-end-line="172" selection-end-column="12" />
+>>>>>>> 备注
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/templates/gaodehandle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="52" column="76" lean-forward="true" selection-start-line="52" selection-start-column="76" selection-end-line="52" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/gaodehandle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
+=======
+    <entry file="file://$PROJECT_DIR$/static/js/gaodehandle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-537">
+          <caret line="51" column="36" lean-forward="true" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bjSub/PoiHandle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cdbushandle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/cdbushandle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2066">
+          <caret line="9" column="28022" selection-start-line="9" selection-start-column="28022" selection-end-line="9" selection-end-column="28022" />
+>>>>>>> 备注
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
